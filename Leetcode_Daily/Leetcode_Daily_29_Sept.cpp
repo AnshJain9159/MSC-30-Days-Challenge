@@ -1,5 +1,10 @@
 /* Problem Link */
 /* https://leetcode.com/problems/monotonic-array/ */ 
+#include<iostream>
+#include<algorithm>
+
+#include<vector>
+using namespace std;
 class Solution {
 public:
     bool isMonotonic(vector<int>& nums) {

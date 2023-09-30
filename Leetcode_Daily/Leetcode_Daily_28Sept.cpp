@@ -1,4 +1,9 @@
 /* https://leetcode.com/problems/sort-array-by-parity/?envType=daily-question&envId=2023-09-28 */
+#include<iostream>
+#include<algorithm>
+
+#include<vector>
+using namespace std;
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& nums) {
@@ -15,6 +20,6 @@ public:
            else if(nums[i]%2==0) i++; //only moving forward if nums[j] was not odd
             else if(nums[j]%2!=0) j--; //only moving backward if nums[i] was not even
         }
-            return nums;
+            return nums;
     }
 };
